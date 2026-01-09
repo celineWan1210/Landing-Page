@@ -84,7 +84,7 @@ a {
     width: 100%;
 }
 
-.section-1 .text {
+.text {
     /* color and size */
     font-size: 18px;
     color: #E5E7EB;
@@ -94,12 +94,15 @@ a {
 }
 
 /* button styles */
-.section-1 .sign-up-button button {
+button {
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 18px;
     padding: 8px 24px;
     border-radius: 8px;
+}
+
+.section-1 .sign-up-button button{
     border: 0;
 }
 
@@ -132,6 +135,11 @@ a {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
 }
 
 /* .section 2 */
@@ -176,6 +184,7 @@ a {
 
 .info .text {
     text-align: center;
+    color: #1F2937;
 }
 
 /* secction 3 quote */
@@ -206,4 +215,34 @@ a {
 
 .quoted-by {
     font-weight: 600;
+}
+
+/* section 4 */
+.section-4 {
+    padding: 48px 24px;
+}
+
+.section-4-container {
+    background-color: #3882F6;
+    margin: 0px 140px;
+    padding: 24px;
+
+    border-radius: 16px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 60px;
+}
+
+.section-4 .header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.section-4 .sign-up-button button {
+    border: 1px solid #F9FAF8; 
 }
