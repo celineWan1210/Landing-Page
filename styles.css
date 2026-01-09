@@ -53,6 +53,10 @@ a {
     color: #E5E7EB;
     /* padding */
     padding: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* content */
@@ -76,7 +80,7 @@ a {
     font-weight: 900;
     color: #F9FAF8;
     /* width */
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
 }
 
@@ -85,7 +89,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     /* font width */
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
 }
 
@@ -101,9 +105,8 @@ a {
 
 /* image resize */
 .section-1-image img {
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
-    height: auto;
 }
 
 /* flex box */
@@ -114,12 +117,14 @@ a {
 }
 
 .hero .container-header {
-    padding: 12px 60px;
+    padding: 12px 100px;
 }
 
 .section-1 .container-header {
     flex-wrap: wrap;
-    padding: 140px 60px;
+    padding: 140px 100px;
+
+    gap: 16px;
 }
 
 
