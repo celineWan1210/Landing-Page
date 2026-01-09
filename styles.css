@@ -177,3 +177,33 @@ a {
 .info .text {
     text-align: center;
 }
+
+/* secction 3 quote */
+/* section 3 container*/
+.section-3{
+    background-color: #E5E7EB;
+    padding: 48px 24px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.section-3-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    
+    max-width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quoted-by {
+    font-weight: 600;
+}
