@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -18,6 +18,8 @@ body {
     /* color and font style */
     font-size: 24px;
     color: #F9FAF8;
+
+    font-weight: 600;
 }
 
 /* header list */
@@ -124,6 +126,23 @@ a {
 .section-1-info {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
+}
+
+/* .section 2 */
+/* section 2 title */
+.section-2 .header {
+    /* font and size */
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+
+    /* flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* padding */
+    padding: 36px;
 }
 
