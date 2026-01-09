@@ -146,3 +146,29 @@ a {
     padding: 36px;
 }
 
+/* image for section 2*/
+.info img {
+    max-width: 200px;
+    width: 100%;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.container-info {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    padding: 24px 0px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info .text {
+    text-align: center;
+}
